@@ -5,10 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" /> 
+    <title>Sharing Cost</title>
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <div class="container-app">
+
+        <div id="navbar">
+            <div class="row">
+                <div class="col col-md-8">
+                    <h3 id="appLogo"><img src="asset/logo.png" alt="logo" width="50px;">Sharing Web App</h3>
+                </div>
+                <div class="col col-md-4">
+                    <ul>
+                        <li><a class="btn btn-danger" href="#">Sign Up</a></li>
+                        <li><a class="btn btn-outline-danger" href="#">Log In</a></li>
+                    </ul>
+                </div> 
+            </div>
+            
+            <!-- <ul>
+                <li><a class="btn btn-info" href="#">Sign Up</a></li>
+                <li><a class="btn btn-outline-info" href="#">Log In</a></li>
+            </ul> -->
+        </div>
+
+        <div id="main">
+            <div class="row">
+                <div class="col col-md-1"></div>
+                <div class="col col-md-4.5">
+                    <p class="main-text">Share your expenses with your <%= friends %></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deserunt 
+                        cupiditate quibusdam obcaecati alias voluptatibus blanditiis dolorem, 
+                        cumque possimus neque?</p> <br>
+                    <a class="btn btn-danger btn-lg">Sign Up</a> 
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col col-md-1"></div>
+                <div class="col col-md-4.5">
+                    <img src="asset/friends.png" alt="friends" width="500px">
+                </div>
+                <div class="col col-md-1"></div>
+            </div>
+        </div>
+
+        <div id="content1">content1</div>
+        <div id="content2">content2</div>
+        <div id="content3">content3</div>
+        <div id="feedback">feedback</div>
+        <div id="footer">footer</div>
+    </div>
 </body>
 </html>
