@@ -1,19 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<%- include('header'); -%>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css" /> 
-    <title>Sharing Cost</title>
-</head>
-
-<body>
     <div class="container-app">
 
         <div id="navbar">
@@ -23,8 +9,8 @@
                 </div>
                 <div class="col col-md-4">
                     <ul>
-                        <li><a class="btn btn-danger" href="#">Sign Up</a></li>
-                        <li><a class="btn btn-outline-danger" href="#">Log In</a></li>
+                        <li><a class="btn btn-danger" href="/signup">Sign Up</a></li>
+                        <li><a class="btn btn-outline-danger" href="/login">Log In</a></li>
                     </ul>
                 </div> 
             </div>
@@ -43,7 +29,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deserunt 
                         cupiditate quibusdam obcaecati alias voluptatibus blanditiis dolorem, 
                         cumque possimus neque?</p> <br>
-                    <a class="btn btn-danger btn-lg">Sign Up</a> 
+                    <a class="btn btn-danger btn-lg" href="/signup">Sign Up</a> 
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
                 <div class="col col-md-1"></div>
@@ -54,11 +40,98 @@
             </div>
         </div>
 
-        <div id="content1">content1</div>
-        <div id="content2">content2</div>
-        <div id="content3">content3</div>
-        <div id="feedback">feedback</div>
-        <div id="footer">footer</div>
+        <div id="content1">
+            <h4>Track Expenses</h4>
+            <p class="c1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Sequi rerum eius quibusdam tenetur et veniam beatae eos animi ipsa adipisci.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab vel porro accusamus molestias iusto eos suscipit commodi! 
+            Non eos voluptas laborum cumque nisi.</p>
+            <img class="img1" src="asset/p1.jpg" />
+        </div>
+
+        <div id="content2">
+            <h4>Share with People</h4>
+            <p class="d1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque quo 
+                doloremque laboriosam voluptas labore eius. Delectus nesciunt sed omnis illum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptas accusantium quo minus animi rerum dolore facilis 
+            libero ducimus deserunt nemo tempore nulla enim, quis, recusandae esse natus cum sint.</p>
+        </div>
+
+        <div id="content3">
+            <div class="containerFlex">
+                <div class="flex-box">
+                    <p>Instagram said on Thursday it is testing new options for users to verify their age on the platform, starting with people in the United States.</p>
+                    <a class="flex-link" href="https://edition.cnn.com/2022/06/23/tech/instagram-age-verification-tool/index.html"><h3>- CNN</h3></a>
+                </div>
+                <div class="flex-box">
+                    <p>Twitter is trialling a new feature allowing users to share "notes" as long as 2,500 words.</p>
+                    <br>
+                    <a class="flex-link" href="https://www.bbc.com/news/business-61904522"><h3>- BBC</h3></a>
+                </div>
+                <div class="flex-box">
+                    <p>Instagram said on Thursday it is testing new options for users to verify their age on the platform, starting with people in the United States.</p>
+                    <a class="flex-link" href="#"><h3>- CNN</h3></a>
+                </div>
+                <div class="flex-box">
+                    <p>Instagram said on Thursday it is testing new options for users to verify their age on the platform, starting with people in the United States.</p>
+                    <a class="flex-link" href="#"><h3>- CNN</h3></a>
+                </div>
+                <div class="flex-box">
+                    <p>Instagram said on Thursday it is testing new options for users to verify their age on the platform, starting with people in the United States.</p>
+                    <a class="flex-link" href="#"><h3>- CNN</h3></a>
+                </div>
+                <div class="flex-box">
+                    <p>Instagram said on Thursday it is testing new options for users to verify their age on the platform, starting with people in the United States.</p>
+                    <a class="flex-link" href="#"><h3>- CNN</h3></a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="feedback">
+            <p id="f">What we offer in pro</p>
+            <div id="fdiv" class="row">
+                <div class="col col-md-1"></div>
+                <div class="col col-md-3">
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                </div>
+                <div class="col col-md-0.5"></div>
+                <div class="col col-md-3">
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                </div>
+                <div class="col col-md-0.5"></div>
+                <div class="col col-md-3">
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                    <p><img src="asset/link.png" width="18px"><span id="c3ps">Lorem ipsum dolor sit amet.</span></p>
+                </div>
+                <div class="col col-md-1"></div>
+            </div>  
+            <p id="c3pf">Sign Up for Pro and get exclusive offers now.</p>
+        </div>
+
+        <div id="footer">
+            <a href="https://www.flaticon.com/free-icons/chain" title="chain icons">Chain icons created by Freepik - Flaticon</a>
+        </div>
     </div>
 </body>
 </html>
